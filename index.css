@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+body{
+    font-family: "Libertinus Math", system-ui;
+    margin: 0;
+    background-color: #161f2d;
+}
+#home {
+    
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/052/941/388/non_2x/headphones-transparent-background-free-png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 95%;
+    background-attachment:scroll;
+}
+#home .content{
+    margin: 28px;
+    margin-top: 28px;
+}
+#home .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 10px;
+} 
+#home .logo{
+    display: flex;
+}
+#home .logo i{
+    color: #fff ;
+   background-color: #1e3953;
+   padding: 10px;
+    border-radius: 15px;
+    height: 15px;
+}
+#home .logo h3{
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+#home .nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px;
+}
+#home .nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+#home .btn1 i{
+    color: #fff;
+}
+#home .btn1 {
+    padding: 8px; 
+    background-color: #304151;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#home .btn1 a{
+   text-decoration: none;
+    color: #fff;
+    /* padding: 8px; 
+    background-color: #304151;
+    border-radius: 10px; */
+    margin: auto 8px 8px 8px;
+    }
+    
+    #home .btn1 {
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+    }
+    
+    #home .btn1:hover {
+        transform: translateY(-4px) scale(1.05);
+        background-color: #687887;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    #home .btn1:active {
+        transform: translateY(-1px) scale(1.02);
+        box-shadow: 0 5px 10px rgba(254, 252, 252, 0.15);
+    }
+#home .part2{
+    margin-top: 7%;
+    align-items: center  ;
+}
+#home .part2 span{
+    background-color: #5e6974;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+#home .part2 h1{
+    color: #fff;
+    font-size: 70px;
+}
+#home .part2 p{
+    color: #fff;
+    max-width: 350px;
+}
+#home .btn2{
+    display: flex;
+}
+#home .btn2 .buy{
+    height: 25px;
+    background-color: #304151;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#home .btn2 .buy:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#home .btn2 .buy:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#home .btn2 .text p{
+    font-weight: 700;
+    margin-top: 0;
+}
+#home .btn2 .text b{
+    font-size: xx-large;
+}
+#home .btn2 .buy a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+#home .video {
+    background-color:transparent;
+    padding: 10px;
+    border: 1px solid #fff;
+    height: 25px;
+    margin: 7px;
+    transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#home .video:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#home .video:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#home .video a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#home .video i{
+    color: #fff;
+}
+/* ==============features================ */
+#features .content{
+    /* background-color: #304151; */
+    /* margin-top: 70px;
+    margin-bottom: 100px; */
+    margin: 70px 30px;
+}
+#features .part1 {}
+#features .part1 h2 {
+    color: #fff;
+    font-size:30px ;
+}
+#features .part2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#features .card1{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #304151;
+    margin: 10px;
+    transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#features .card1:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#features .card1:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#features .card1 i{
+    color: #101c39;
+    background-color: #dde1e8;
+    padding: 10px;
+    border-radius: 10px;
+}
+#features .card1 h3{
+   color: #fff; 
+}
+#features .card1 p{
+    color: #fff;
+    max-width: 270px;
+}
+#features .card2{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #304151;
+    margin: 10px;
+transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#features .card2:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#features .card2:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#features .card2 i{
+    color: #101c39;
+    background-color: #e5e8ed;
+    padding: 10px;
+    border-radius: 10px;
+}
+#features .card2 h3{
+   color: #fff; 
+}
+#features .card2 p{
+    color: #fff;
+    max-width: 270px;
+}
+#features .card3{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #304151;
+    margin: 10px;
+transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#features .card3:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#features .card3:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#features .card3 i{
+    color: #101c39;
+    background-color: #dbdde2;
+    padding: 10px;
+    border-radius: 10px;
+}
+#features .card3 h3{
+   color: #fff; 
+}
+#features .card3 p{
+    color: #fff;
+    max-width: 250px;
+}
+#features .card4{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #304151;
+    margin: 10px;
+transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#features .card4:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#features .card4:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#features .card4 i{
+    color: #101c39;
+    background-color: #dddfe4;
+    padding: 10px;
+    border-radius: 10px;
+}
+#features .card4 h3{
+   color: #fff; 
+}
+#features .card4 p{
+    color: #fff;
+    max-width: 250px;
+}
+/* ==============Tech Specs================ */
+#Tech-Specs .content{
+    margin-bottom: 70px;
+    margin: 70px 30px;
+}
+#Tech-Specs .part1 h2{
+    color: #fff;
+    font-size:30px ;
+}
+#Tech-Specs .part1 p{
+    color: #fff;
+    max-width: 390px;
+}
+#Tech-Specs .part2{
+
+}
+#Tech-Specs .part2 table {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+#Tech-Specs .part2 table tr{
+    border: 1px solid #fdfdfd;
+    color: #fff;
+    
+}
+#Tech-Specs table td strong{
+    font-size: 35px;
+}
+#Tech-Specs table td{
+    padding: 20px;
+    font-size:25px;
+}
+/* ==============Checkout Form================ */
+#Checkout-Form{
+    background-color: #e4e4efc5;
+}
+#Checkout-Form .content{
+    padding-top:40px ;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 20px;
+}
+#Checkout-Form .part1{
+    margin-bottom: 40px;
+}
+#Checkout-Form .part1 h2{
+    color: #fff;
+    font-size:30px ;
+}
+#Checkout-Form .part1 span{
+    color: #fff;
+    max-width: 390px;
+    font-weight: 300;
+    background-color: #304151;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#Checkout-Form .colors{
+    display: flex;
+}
+#Checkout-Form .Color {
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+#Checkout-Form .part3{
+
+}
+#Checkout-Form .part3 .input{
+    margin-top: 20px;
+}
+#Checkout-Form .part3 .input input{
+    margin-left: 60px;
+    margin: 20px 10px 20px 60px ;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #95999c;
+}
+#Checkout-Form .part3 .input label{
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 600;
+}
+#Checkout-Form .part3 button{
+    background-color: #304151;
+    color: #fdfdfd;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+#Checkout-Form .part3 button:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#Checkout-Form .part3 button:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#Checkout-Form .part4 .btn3 {
+    /* display:flex;
+    align-items:  center;
+    justify-content: center; */
+}
+#Checkout-Form .part4 .btn3{
+    background-color: #304151;
+    border-radius: 10px;
+    margin: 8px;
+    margin-top: 20px;
+    width: 330px;
+    font-size: xx-large;
+    margin-left: 20px;
+transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) ;
+  padding: 15px;
+}
+#Checkout-Form .part4 .btn3:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #687887;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#Checkout-Form .part4 .btn3:active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+#Checkout-Form .part4 .btn3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px; 
+   
+}
+
+/* ==============footer================ */
+footer .content{
+    margin: 20px;
+    margin-bottom: 0px;
+}
+footer .part1 { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .part1 .logo i{
+    color: #fff ;
+   background-color: #1e3953;
+   padding: 10px;
+    border-radius: 15px;
+    height: 15px;
+}
+footer .part1 .logo{
+    display: flex;
+}
+footer .part1 .logo h3{
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+footer .part1 b{
+    color: #e5e8ed;
+    font-size: 20px;
+    font-weight: 100;
+}
+footer .part1 .links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px; 
+    margin: 8px;
+}
+footer .part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .part2 p{
+    color: #dde1e8;
+}
+/* ==============resposive================ */
+@media(max-width:480px) and (min-width:320px){
+        #home {
+        background-size: 100% 50%;
+        width: 100%;
+        margin: 5px;
+    }
+    #home .part1{
+        margin: 3px 0px;
+    }
+    #home .content{
+        margin: 5px;
+    }
+     #home .logo i{
+        font-size: 8px;
+        padding: 4px;
+        height: 10px;
+     }
+      #home .logo h3{
+        font-size: 10px;
+      } 
+      #home .nav-bar ul{
+        
+        width: 70px;
+        margin-left: 0px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      #home .nav-bar a{
+        font-size: xx-small;
+        padding:auto 3px;
+       
+      }
+      #home .btn1 i{
+        font-size: small;
+      }
+      #home .btn1{
+        margin-left: 10px;
+        margin-right: 3px;
+        width: 40px;
+        align-items: right;
+        padding: 4px;
+      }
+      #home .btn1 a{
+        margin: 3px;
+        font-size: 10px;
+      }
+      #home .part2{
+        margin-top: 39%;
+        align-items: center  ;
+      }
+      #home .part2 span{
+        font-size: small;
+        padding: 5px;
+      }
+      #home .part2 h1{
+        font-size: 40px;
+      }
+      #home .part2 p{
+        max-width: 270px;
+        font-size: medium;
+      }
+      #home .btn2 .text p{
+        font-size: small;
+      }
+      #home .btn2 .buy{
+        font-size: x-small;
+        padding: 7px;
+        align-items: center;
+        display: flex;
+      }
+      #home .video{
+         font-size: x-small;
+        padding: 7px;
+        align-items: center;
+        display: flex;
+      }
+/* ==============features================ */
+
+      #features .content{
+        margin: 70px 5px;
+      }
+      
+      #features .part1 h2{
+        font-size: 20px;
+      }
+      #features .card1{
+        padding: 5px;
+        margin: 3px;
+      }
+      #features .card1 p{
+        font-size: x-small;
+    }
+     #features .card1 h3{
+        font-size: medium;
+     }
+     #features .card2{
+        padding: 5px;
+        margin: 3px;
+      }
+    #features .card2 p{
+        font-size: x-small;
+    }
+     #features .card2 h3{
+        font-size: medium;
+     }
+    #features .card3{
+        padding: 5px;
+        margin: 3px;
+      }
+     #features .card3 h3{
+        font-size: medium;
+     }
+    #features .card3 p{
+        font-size: x-small;
+    } 
+     #features .card4{
+        padding: 5px;
+        margin: 3px;
+      }
+     #features .card4 h4{
+        font-size: medium;
+     }
+    #features .card4 p{
+        font-size: x-small;
+    } 
+    /* ==============Tech-Specs================ */
+    #Tech-Specs .content{
+        margin: 50px 10px;
+    }
+    #Tech-Specs .part1 h2{
+        font-size:15px ;
+    }
+    #Tech-Specs .part1 p{
+        font-size: x-small;
+    }
+    #Tech-Specs table td strong{
+        font-size: 15px;
+    }
+    #Tech-Specs table td{
+        padding: 10px;
+        font-size:10px;
+    }
+    
+    /* ==============Checkout Form================ */
+    #Checkout-Form .part1 h2{
+        font-size: 20px;
+    }
+    #Checkout-Form .part1 span{
+        padding: 5px;
+        font-size: xx-small;
+    }
+    #Checkout-Form .Color{
+        padding: 8px;
+    font-size: 18px;
+    }
+    #Checkout-Form .part3 .input input{
+        font-size: medium;
+        width: 170px;
+    }
+    #Checkout-Form .part3 .input label{
+        font-size: medium;
+    }
+
+    #Checkout-Form .part4 .btn3{
+        font-size: large;
+        width: 200px;
+        margin-left: 15px;
+        margin: 5px;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ==============footer================ */
+    footer .content{
+        margin: 5px;
+        margin-bottom: 0;
+    }
+    footer .part1 .logo i{
+        font-size: 5px;
+        padding: 3px;
+        height: 3px;
+    }
+    footer .part1 .logo h3{
+        font-size: 8px;
+    }
+    footer .part1 .links a{
+        font-size: xx-small;
+        margin: 3px;
+        padding: 0;
+    }
+    footer .part2 p{
+        font-size: x-small;
+    }
+}
+@media(min-width:481px) and (max-width:780px){
+    #home {
+        background-size: 60% 70%;
+    }
+    #home .content{
+        margin: 10px;
+    }
+     #home .logo i{
+        font-size: 30% 50%;
+        padding: 7px;
+     }
+      #home .logo h3{
+        font-size: 15px;
+      } 
+      #home .nav-bar ul{
+        justify-content: center;
+        width: 150px;
+        align-items: center;
+      }
+      #home .nav-bar a{
+        font-size: small;
+        padding: 5px;
+      }
+      #home .btn1 i{
+        font-size: small;
+      }
+      #home .btn1{
+        padding: 5px;
+        width: 50px;
+        align-items: center;
+      }
+      #home .btn1 a{
+        margin: 5px;
+        font-size: small;
+      }
+      #home .part2{
+        margin-top: 19%;
+    align-items: center  ;
+      }
+      #home .part2 span{
+        font-size: medium;
+        padding: 5px;
+      }
+      #home .part2 h1{
+        font-size: 50px;
+      }
+      #home .part2 p{
+        max-width: 300px;
+      }
+      #home .btn2 .text b{
+        font-size: x-large;
+      }
+      #home .btn2 .buy{
+        font-size: small;
+        padding: 7px;
+      }
+      #home .video{
+        font-size: small;
+        padding: 6px;
+      }
+/* ==============features================ */
+
+      #features .content{
+        margin: 40px 15px;
+      }
+      
+      #features .part1 h2{
+        font-size: 25px;
+      }
+      #features .card1{
+        padding: 10px;
+        margin: 5px;
+      }
+      #features .card1 p{
+        font-size: small;
+    }
+     #features .card1 h3{
+        font-size: medium;
+     }
+     #features .card2{
+        padding: 10px;
+        margin: 5px;
+      }
+    #features .card2 p{
+        font-size: small;
+    }
+     #features .card2 h3{
+        font-size: medium;
+     }
+    #features .card3{
+        padding: 10px;
+        margin: 5px;
+      }
+     #features .card3 h3{
+        font-size: medium;
+     }
+    #features .card3 p{
+        font-size: small;
+    } 
+     #features .card4{
+        padding: 10px;
+        margin: 5px;
+      }
+     #features .card4 h4{
+        font-size: medium;
+     }
+    #features .card4 p3{
+        font-size: small;
+    } 
+    #Tech-Specs .content{
+        margin: 50px 20px;
+    }
+    #Tech-Specs .part1 h2{
+        font-size:25px ;
+    }
+    #Tech-Specs .part1 p{
+        font-size: small;
+    }
+    #Tech-Specs table td strong{
+        font-size: 20px;
+    }
+    #Tech-Specs table td{
+        padding: 15px;
+    font-size:20px;
+    }
+    /* ==============Checkout Form================ */
+    footer .content{
+        margin: 10px;
+        margin-bottom: 0;
+    }
+    #Checkout-Form .part1 h2{
+        font-size: 27px;
+    }
+    #Checkout-Form .part4 .btn3{
+        font-size: x-large;
+        width: 300px;
+        margin-left: 20px;
+        margin: 5px;
+        margin-top: 15px;
+    }
+    footer .part1 .logo i{
+        font-size: 10px;
+        padding: 5px;
+        height: 10px;
+    }
+    footer .part1 .logo h3{
+        font-size: 15px;
+    }
+    footer .part1 .links a{
+        font-size: small;
+    }
+    footer .part2 p{
+        font-size: small;
+    }
+    }
+@media(min-width:1024px) and (min-width:781px){}
